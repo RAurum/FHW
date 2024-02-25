@@ -4,7 +4,10 @@ int main()
 {
 	unsigned int number;
 
-	std::cin >> number;
+	do 
+		std::cin >> number; 
+	while (number < 0);
+
 	system("cls");
 
 	for (int i = 0; i <= number; i++)
