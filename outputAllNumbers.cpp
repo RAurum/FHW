@@ -2,9 +2,10 @@
 
 int main()
 {
-	int number;
+	unsigned int number;
 
 	std::cin >> number;
+	system("cls");
 
 	for (int i = 0; i <= number; i++)
 		std::cout << i << std::endl;
